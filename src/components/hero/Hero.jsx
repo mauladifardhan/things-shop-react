@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./hero/Hero.module.css";
+import css from "../hero/Hero.module.css";
 import HeroImg from "../../assets/hero.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
@@ -15,7 +15,8 @@ const Hero = () => {
           <span>Seedily say has suitable disposal and boy. Exercise joy man rejoiced.</span>
         </div>
       </div>
-      {/* right sides */}
+
+      {/* middle side hero image */}
       <div className={css.wrapper}>
         <div className={css.blueCircle}>
           <img src={HeroImg} alt="" width={600} />
@@ -23,10 +24,22 @@ const Hero = () => {
             <RiShoppingBagFill />
             <div className={css.signup}>
               <span>Best signup offers</span>
-              <div className="">
+              <div>
                 <BsArrowRight />
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* right side */}
+        <div className={css.h_sides}>
+          <div className={css.traffic}>
+            <span>1.5m</span>
+            <span>Monthly Traffic</span>
+          </div>
+          <div className={css.customers}>
+            <span>100k</span>
+            <span>Happy Customers</span>
           </div>
         </div>
       </div>
