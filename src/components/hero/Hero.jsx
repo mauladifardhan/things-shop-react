@@ -1,8 +1,9 @@
 import React from "react";
-import css from "./hero/hero.module.css";
-import { HeroImg } from "../../assets/hero.png";
+import css from "./hero/Hero.module.css";
+import HeroImg from "../../assets/hero.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
+
 const Hero = () => {
   return (
     <div className={css.container}>
